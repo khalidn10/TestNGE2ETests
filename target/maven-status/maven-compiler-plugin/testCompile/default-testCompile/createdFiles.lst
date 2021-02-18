@@ -1,0 +1,5 @@
+step_definitions\NavValStepDefinition.class
+e2e_tests\NavigationTest.class
+cucumber_options\TestRunner.class
+e2e_tests\Listeners.class
+e2e_tests\ValidationTest.class

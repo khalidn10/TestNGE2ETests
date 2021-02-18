@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="e2e_tests.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="e2e_tests.NavigationTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="tearDown"/>
+          <include name="navRSAcad"/>
+        </methods>
+      </class> <!-- e2e_tests.NavigationTest -->
+      <class name="e2e_tests.ValidationTest">
+        <methods>
+          <include name="initialise"/>
+          <include name="valRSAcad"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- e2e_tests.ValidationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
